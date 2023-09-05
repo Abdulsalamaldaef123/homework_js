@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="styles.css">
+    <title>proplems</title>
+</head>
+<body>
+    <div class="">
+        <h1 style="text-align: center;">multiplication - Addition Game</h1>
+        <div id="input-section">
+                <label for="player-name">Player Name:</label>
+                <input type="text"  id="py-name">
+                <br>   <br>
+                <label for="operation">Operation:</label>
+                <select  id="operation">
+                    <option value="multiplication">Multiplication</option>
+                    <option value="addition">Addition</option>
+                </select>
+            <br>   <br>
+      
+                <label for="number">Factroy:</label>
+                <input type="number" id="number">
+            <br>   <br>
+            
+                <label id="label-num" for="num-problems">Number of Problems:</label>
+                <input style="margin-left: 5px;" type="number" id="num-problems">
+            <br>   <br>
+
+            <button id="start">Start Game</button>
+        </div>
+
+        <div id="game-section" style="display: none;">
+            <h2>Answer the Questions:</h2>
+            <div id="questions"></div>
+
+            <div id="result"></div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

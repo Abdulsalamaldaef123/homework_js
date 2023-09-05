@@ -1,0 +1,61 @@
+body {
+    background-color: white;
+}
+#input-section{
+    margin:50px 0 0 40%;
+}
+#operation{
+    padding: 3px;
+    margin-left: 18px;
+    width: 171px;
+
+}
+#number{
+    margin-left: 33px;
+
+}
+#label-num{
+    margin-left: -59px;
+}
+#start{
+
+    background-color: #F50;
+
+width: 15%;
+height: 33px;
+border-style: none;
+}
+#game-section{
+    margin-left: 41%;
+}
+#score-calc {
+    margin-top: 10px;
+    margin-left: 49px;
+    background-color: #00deff8c;
+    border-style: none;
+}
+
+
+/* .container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #333;
+}
+
+#input-section, #game-section {
+    margin-top: 20px;
+}
+
+label, select, input {
+    margin: 5px;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+} */
